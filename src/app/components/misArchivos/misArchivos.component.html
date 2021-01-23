@@ -1,0 +1,77 @@
+
+
+  <div class="contenedor">
+
+
+    <header class="navbar">
+
+      <h3 class="titulo">Editor de código</h3>
+
+      <a (click)="home($event)">Inicio</a>
+
+      <a>Mis archivos</a>
+
+      <button (click)="login($event)" id="login">Iniciar Sesión</button>
+
+      <button (click)="cerrarSesion($event)" class="close" id="close">Cerrar Sesión</button>
+
+    </header>
+
+
+    
+
+        <div class="titulo2">
+          <h1>Mis Archivos</h1>
+          <h2 class="aviso">Para visualizar los archivos, por favor inicie sesión.</h2>
+        </div>
+          
+          
+
+
+          <div class="cards">
+
+            <div (click)="new($event)" class="plus card">
+
+              <p>Agregar nuevo archivo</p>
+  
+              <img src="assets/plus.png" width="125px">
+  
+            </div>
+
+             <a href='http://localhost:4200/#/archivo/luna/1'>
+
+              <div class="card">
+
+                <p>holaa</p>
+
+                <img src="assets/css.png" width="100px" height="125px">
+
+
+             </div></a>
+
+             <a href='http://localhost:4200/#/archivo/luna/2'>
+
+              <div class="card">
+
+                <p>holaaa</p>
+
+                <img src="assets/html.png" width="125px">
+
+
+             </div></a>
+
+             <a href='http://localhost:4200/#/archivo/luna/3'>
+
+              <div class="card">
+
+                <p>holaaaa</p>
+
+                <img src="assets/js.png" width="125px">
+
+
+             </div></a>
+
+          </div>
+  
+  
+  </div>
